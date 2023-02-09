@@ -9,11 +9,11 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  contractName: 'TestDogs',
+  tokenName: 'Test Dogs',
+  tokenSymbol: 'TD',
+  hiddenMetadataUri: 'ipfs://bafybeiat7wj4agtwa34av6i3o6ex5tc4g4m5t72x2c66qhpf6gnz47fu3y/hidden.json',
+  maxSupply: 4,
   whitelistSale: {
     price: 0.05,
     maxMintAmountPerTx: 1,
