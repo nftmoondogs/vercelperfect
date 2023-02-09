@@ -132,7 +132,18 @@ const config: HardhatUserConfig = {
       // Polygon
       polygon: process.env.BLOCK_EXPLORER_API_KEY,
       polygonMumbai: process.env.BLOCK_EXPLORER_API_KEY,
+      coretest: process.env.BLOCK_EXPLORER_API_KEY,
     },
+    customChains: [
+      {
+        network: "coretest",
+        chainId: 1115,
+        urls: {
+          apiURL: "https://scan.test.btcs.network/",
+          browserURL: "https://rpc.test.btcs.network"
+        }
+      }
+    ]
   },
 };
 
