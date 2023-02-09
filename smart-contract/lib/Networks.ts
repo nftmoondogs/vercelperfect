@@ -46,6 +46,16 @@ export const ethereumMainnet: NetworkConfigInterface = {
   },
 }
 
+export const coredaotestnet: NetworkConfigInterface = {
+  chainId: 1115,
+  symbol: 'tCORE',
+  blockExplorer: {
+    name: 'CoreChain Testnet',
+    generateContractUrl: (contractAddress: string) => `https://scan.test.btcs.network/address/${contractAddress}`,
+    generateTransactionUrl: (transactionAddress: string) => `https://scan.test.btcs.network/tx/${transactionAddress}`,
+  },
+}
+
 /*
  * Polygon
  */

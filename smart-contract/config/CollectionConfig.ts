@@ -5,7 +5,7 @@ import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
   testnet: Networks.ethereumTestnet,
-  mainnet: Networks.ethereumMainnet,
+  mainnet: Networks.coredaotestnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
