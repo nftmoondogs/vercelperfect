@@ -1,6 +1,6 @@
 import MarketplaceConfigInterface from './MarketplaceConfigInterface';
 
 export const openSea: MarketplaceConfigInterface = {
-  name: 'OpenSea',
-  generateCollectionUrl: (marketplaceIdentifier: string, isMainnet: boolean) => 'https://' + (isMainnet ? 'www' : 'testnets') + '.opensea.io/collection/' + marketplaceIdentifier,
+  name: 'Young Parrots',
+  generateCollectionUrl: (marketplaceIdentifier: string, isMainnet: boolean) => 'https://' + (isMainnet ? 'www' : 'testnets') + '.app.youngparrotnft.com/core' + marketplaceIdentifier,
 }
