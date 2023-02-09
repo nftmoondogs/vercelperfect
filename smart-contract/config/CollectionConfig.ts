@@ -24,7 +24,7 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   publicSale: {
     price: 2,
-    maxMintAmountPerTx: 10,
+    maxMintAmountPerTx: 100,
   },
   contractAddress: "0x302330b329191324fe83fa6461a48f2e22406c9d",
   marketplaceIdentifier: 'my-nft-token',
