@@ -5,7 +5,7 @@ import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
   testnet: Networks.ethereumTestnet,
-  mainnet: Networks.coredaotestnet,
+  mainnet: Networks.coredao,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
@@ -16,17 +16,17 @@ const CollectionConfig: CollectionConfigInterface = {
   maxSupply: 5555,
   whitelistSale: {
     price: 0,
-    maxMintAmountPerTx: 5555,
+    maxMintAmountPerTx: 500,
   },
   preSale: {
-    price: 0.07,
+    price: 1,
     maxMintAmountPerTx: 2,
   },
   publicSale: {
-    price: 0.2,
+    price: 2,
     maxMintAmountPerTx: 10,
   },
-  contractAddress: "0x5eb0321c2db5c45371a538055bab3a146462a5f4",
+  contractAddress: "0x302330b329191324fe83fa6461a48f2e22406c9d",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,

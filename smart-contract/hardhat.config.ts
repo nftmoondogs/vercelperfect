@@ -132,15 +132,15 @@ const config: HardhatUserConfig = {
       // Polygon
       polygon: process.env.BLOCK_EXPLORER_API_KEY,
       polygonMumbai: process.env.BLOCK_EXPLORER_API_KEY,
-      coretest: process.env.BLOCK_EXPLORER_API_KEY,
+      core: process.env.BLOCK_EXPLORER_API_KEY,
     },
     customChains: [
       {
-        network: "coretest",
-        chainId: 1115,
+        network: "core",
+        chainId: 1116,
         urls: {
-          apiURL: "https://scan.test.btcs.network/",
-          browserURL: "https://rpc.test.btcs.network"
+          apiURL: "https://scan.coredao.org",
+          browserURL: "https://rpc.coredao.org/"
         }
       }
     ]
