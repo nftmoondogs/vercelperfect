@@ -23,7 +23,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 2,
   },
   publicSale: {
-    price: 2,
+    price: 0.5,
     maxMintAmountPerTx: 100,
   },
   contractAddress: "0x302330b329191324fe83fa6461a48f2e22406c9d",
