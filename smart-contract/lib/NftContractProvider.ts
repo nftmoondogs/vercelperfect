@@ -1,8 +1,8 @@
-// The name below ("Moondogs") should match the name of your Solidity contract.
+// The name below ("CoreTokyo") should match the name of your Solidity contract.
 // It can be updated using the following command:
 // yarn rename-contract NEW_CONTRACT_NAME
 // Please DO NOT change it manually!
-import { Moondogs as ContractType } from '../typechain/index';
+import { CoreTokyo as ContractType } from '../typechain/index';
 
 import { ethers } from 'hardhat';
 import CollectionConfig from './../config/CollectionConfig';

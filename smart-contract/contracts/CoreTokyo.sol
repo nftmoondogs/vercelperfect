@@ -6,8 +6,9 @@ import 'erc721a/contracts/extensions/ERC721AQueryable.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
+import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract Moondogs is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract CoreTokyo is ERC721AQueryable, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
