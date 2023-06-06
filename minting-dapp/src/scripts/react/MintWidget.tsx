@@ -86,7 +86,7 @@ export default class MintWidget extends React.Component<Props, State> {
             <span className="emoji">⏳</span>
 
             {this.props.isWhitelistMintEnabled ? <>You are not included in the <strong>whitelist</strong>.</> : <>This Mint Phase has been <strong>completed</strong>.</>}<br />
-            Please come back during the next mint phase few hours later!
+            Please come back during the next mint phase starting few hours later!
           </div>
         }
       </>
