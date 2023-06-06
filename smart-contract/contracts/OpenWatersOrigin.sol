@@ -8,7 +8,7 @@ import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract CoreTokyo is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract OpenWatersOrigin is ERC721AQueryable, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
